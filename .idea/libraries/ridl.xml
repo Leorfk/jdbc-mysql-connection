@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="ridl">
+    <CLASSES>
+      <root url="jar:///usr/share/java/ridl.jar!/" />
+      <root url="jar:///usr/share/java/jurt-6.3.5.jar!/" />
+      <root url="jar:///usr/share/java/juh-6.3.5.jar!/" />
+      <root url="jar:///usr/share/java/unoloader.jar!/" />
+      <root url="jar:///usr/share/java/jurt.jar!/" />
+      <root url="jar:///usr/share/java/java-atk-wrapper.jar!/" />
+      <root url="jar:///usr/share/java/java_uno.jar!/" />
+      <root url="jar:///usr/share/java/ridl-6.3.5.jar!/" />
+      <root url="jar:///usr/share/java/juh.jar!/" />
+      <root url="jar:///usr/share/java/unoloader-6.3.5.jar!/" />
+      <root url="jar:///usr/share/java/libintl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
