@@ -10,6 +10,7 @@ public class Program {
 
         Departamento.consultarDepartamentos();
         Vendedor.inserirVendedor();
+        Vendedor.atualizarSalario();
 
         DB.closeConnection();
     }

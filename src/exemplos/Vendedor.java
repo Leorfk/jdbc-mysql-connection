@@ -51,4 +51,30 @@ public class Vendedor {
             //DB.closeConnection();
         }
     }
+
+    public static  void atualizarSalario(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = DB.getConnection();
+            ps = conn.prepareStatement(
+                    "UPDATE seller "
+                            + "SET BaseSalary = BaseSalary + ? "
+                            + "WHERE "
+                            + "(DepartmentId = ?)"
+            );
+
+            ps.setDouble(1, 1000.00);
+            ps.setInt(2, 2);
+
+            int rowsAffected = ps.executeUpdate();
+
+            System.out.println("Rows affected = " + rowsAffected);
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        }finally {
+            DB.closeStatement(ps);
+        }
+    }
 }
