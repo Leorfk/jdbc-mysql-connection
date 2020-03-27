@@ -44,7 +44,7 @@ public class Departamento {
                     "DELETE  FROM department WHERE Id= ?"
             );
 
-            ps.setInt(1, 2);
+            ps.setInt(1, 6);
 
             int rowsAffected = ps.executeUpdate();
 

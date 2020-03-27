@@ -2,6 +2,7 @@ package application;
 
 import db.DB;
 import exemplos.Departamento;
+import exemplos.Transacoes;
 import exemplos.Vendedor;
 
 public class Program {
@@ -12,6 +13,7 @@ public class Program {
         Vendedor.inserirVendedor();
         Vendedor.atualizarSalario();
         Departamento.deletarDepartamento();
+        Transacoes.realizarTransacao();
         DB.closeConnection();
     }
 }
