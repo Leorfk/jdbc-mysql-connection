@@ -11,7 +11,7 @@ public class Program {
         Departamento.consultarDepartamentos();
         Vendedor.inserirVendedor();
         Vendedor.atualizarSalario();
-
+        Departamento.deletarDepartamento();
         DB.closeConnection();
     }
 }
